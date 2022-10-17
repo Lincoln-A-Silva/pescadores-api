@@ -15,7 +15,6 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "tb_person")
-@Where(clause = "deleted=false")
 public class Person implements Serializable {
 
     @Id
@@ -38,6 +37,4 @@ public class Person implements Serializable {
     @Column(name = "type", nullable = false)
     Type type;
 
-    @Column(name = "deleted", nullable = false)
-    private Boolean deleted = false;
 }
