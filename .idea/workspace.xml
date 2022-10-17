@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6586071e-cfb7-4a10-a1be-4d1cd8a814c8" name="Changes" comment="" />
+    <list default="true" id="6586071e-cfb7-4a10-a1be-4d1cd8a814c8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +46,7 @@
     "last_opened_file_path": "D:/Projects/Workspace IntelliJ/Pescadores-API/pescadoresAPI/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
@@ -62,6 +65,7 @@
     <option name="myCommands">
       <command value="mvn clean install" />
       <command value="mvn package" />
+      <command value="mvn clean package" />
     </option>
   </component>
   <component name="RunManager">
@@ -92,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666043515859</updated>
-      <workItem from="1666043517295" duration="6213000" />
+      <workItem from="1666043517295" duration="6901000" />
     </task>
     <servers />
   </component>
