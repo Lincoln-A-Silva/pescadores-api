@@ -13,6 +13,7 @@ public class PersonMapper {
                 .name(dto.getName())
                 .region(dto.getRegion())
                 .phoneNumber(dto.getPhoneNumber())
+                .type(dto.getType())
                 .build();
     }
 
@@ -22,6 +23,7 @@ public class PersonMapper {
                 .name(entity.getName())
                 .region(entity.getRegion())
                 .phoneNumber(entity.getPhoneNumber())
+                .type(entity.getType())
                 .build();
     }
 }
