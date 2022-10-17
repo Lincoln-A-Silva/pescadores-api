@@ -1,7 +1,5 @@
 package com.api.application.utils.exeption;
 
-import java.io.Serial;
-
 public class ApplicationBusinessException extends BaseException {
 
     private static final long serialVersionUID = -6834563825277899887L;
