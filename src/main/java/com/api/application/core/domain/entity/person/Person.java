@@ -20,24 +20,24 @@ public class Person implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(nullable = false)
+    @Column(name = "id", nullable = false)
     private Long id;
 
-    @Column(nullable = false)
+    @Column(name = "name", nullable = false)
     String name;
 
-    @Column(nullable = false)
+    @Column(name = "region", nullable = false)
     String region;
 
-    @Column(nullable = false)
+    @Column(name = "fishes", nullable = false)
     String fishes;
 
-    @Column(nullable = false)
+    @Column(name = "phoneNumber", nullable = false)
     String phoneNumber;
 
-    @Column(nullable = false)
+    @Column(name = "type", nullable = false)
     Type type;
 
-    @Column(nullable = false)
+    @Column(name = "deleted", nullable = false)
     private Boolean deleted = false;
 }
