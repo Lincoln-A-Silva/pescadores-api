@@ -3,13 +3,13 @@ package com.api.application.controller;
 import com.api.application.core.commons.DomainReturnCode;
 import com.api.application.core.domain.dto.person.PersonDTO;
 import com.api.application.core.service.PersonService;
-import io.swagger.v3.oas.annotations.Operation;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
 import com.api.application.utils.core.responses.DataListResponse;
 import com.api.application.utils.core.responses.DataResponse;
 import com.api.application.utils.core.resquests.DataRequest;
 import com.api.application.utils.exeption.ApplicationBusinessException;
+import io.swagger.v3.oas.annotations.Operation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
 

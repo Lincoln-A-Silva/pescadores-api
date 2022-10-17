@@ -2,7 +2,6 @@ package com.api.application.core.domain.entity.person;
 
 import com.api.application.core.domain.dto.Type;
 import lombok.*;
-import org.hibernate.annotations.Where;
 
 import javax.persistence.*;
 import java.io.Serializable;

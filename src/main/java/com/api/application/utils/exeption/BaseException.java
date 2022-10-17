@@ -1,7 +1,6 @@
 package com.api.application.utils.exeption;
 
 import javax.print.attribute.standard.Severity;
-import java.io.Serial;
 import java.text.MessageFormat;
 
 public class BaseException extends Exception {
