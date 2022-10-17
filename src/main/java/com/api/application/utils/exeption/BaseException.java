@@ -6,7 +6,6 @@ import java.text.MessageFormat;
 
 public class BaseException extends Exception {
 
-    @Serial
     private static final long serialVersionUID = 2594220962674232227L;
     protected String message;
     protected String input;

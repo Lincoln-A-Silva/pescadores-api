@@ -9,7 +9,6 @@ import java.io.*;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Response implements Serializable {
 
-    @Serial
     private static final long serialVersionUID = 8927944169026414109L;
     private String message;
     private String severity;
